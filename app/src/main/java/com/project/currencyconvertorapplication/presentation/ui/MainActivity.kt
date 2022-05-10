@@ -1,11 +1,11 @@
-package com.project.currencyconvertorapplication
+package com.project.currencyconvertorapplication.presentation.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
-import com.project.currencyconvertorapplication.ui.theme.CurrencyConvertorApplicationTheme
+import com.project.currencyconvertorapplication.presentation.theme.CurrencyConvertorApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
