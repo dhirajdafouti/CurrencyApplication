@@ -1,4 +1,4 @@
-package com.project.currencyconvertorapplication.presentation.coin_list.components
+package com.project.currencyconvertorapplication.presentation.coin_list.listui
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf

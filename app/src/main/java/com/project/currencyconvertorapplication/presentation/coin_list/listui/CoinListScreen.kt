@@ -1,4 +1,4 @@
-package com.project.currencyconvertorapplication.presentation.coin_list.components
+package com.project.currencyconvertorapplication.presentation.coin_list.listui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.project.currencyconvertorapplication.presentation.Screen
+import com.project.currencyconvertorapplication.presentation.coin_list.components.CoinListItem
 
 @Composable
 fun coinListScreen(

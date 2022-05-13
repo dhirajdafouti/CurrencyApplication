@@ -1,4 +1,4 @@
-package com.project.currencyconvertorapplication.presentation.coin_details.components
+package com.project.currencyconvertorapplication.presentation.coin_details.detailsui
 
 import com.project.currencyconvertorapplication.domain.model.CoinDetail
 
