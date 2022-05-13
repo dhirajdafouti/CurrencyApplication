@@ -20,7 +20,7 @@ import com.project.currencyconvertorapplication.presentation.Screen
 import com.project.currencyconvertorapplication.presentation.coin_list.components.CoinListItem
 
 @Composable
-fun coinListScreen(
+fun CoinListScreen(
     navController: NavController,
     viewModel: CoinListViewModel = hiltViewModel(),
 ) {
