@@ -12,8 +12,11 @@ import com.project.currencyconvertorapplication.presentation.Screen
 import com.project.currencyconvertorapplication.presentation.coin_details.detailsui.CoinDetailScreen
 import com.project.currencyconvertorapplication.presentation.coin_list.listui.CoinListScreen
 import com.project.currencyconvertorapplication.presentation.theme.CurrencyConvertorApplicationTheme
+import dagger.hilt.android.AndroidEntryPoint
 
-class MainActivity : ComponentActivity() {
+@AndroidEntryPoint
+class MainActivity() : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -38,5 +41,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+
 }
 

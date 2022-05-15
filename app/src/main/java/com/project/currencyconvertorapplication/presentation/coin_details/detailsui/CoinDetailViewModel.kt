@@ -8,10 +8,12 @@ import androidx.lifecycle.viewModelScope
 import com.project.currencyconvertorapplication.common.Constants.PARAM_COIN_ID
 import com.project.currencyconvertorapplication.common.Resource
 import com.project.currencyconvertorapplication.domain.usecases.get_coin.GetCoinUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
+@HiltViewModel
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
     savedStateHandle: SavedStateHandle,
