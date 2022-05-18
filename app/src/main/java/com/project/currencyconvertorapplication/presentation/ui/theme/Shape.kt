@@ -1,4 +1,4 @@
-package com.project.currencyconvertorapplication.presentation.theme
+package com.project.currencyconvertorapplication.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
