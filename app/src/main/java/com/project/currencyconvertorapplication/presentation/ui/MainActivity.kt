@@ -11,7 +11,7 @@ import androidx.navigation.compose.rememberNavController
 import com.project.currencyconvertorapplication.presentation.Screen
 import com.project.currencyconvertorapplication.presentation.coin_details.detailsui.CoinDetailScreen
 import com.project.currencyconvertorapplication.presentation.coin_list.listui.CoinListScreen
-import com.project.currencyconvertorapplication.presentation.theme.CurrencyConvertorApplicationTheme
+import com.project.currencyconvertorapplication.presentation.theme.CryptocurrencyAppYTTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -20,7 +20,7 @@ class MainActivity() : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            CurrencyConvertorApplicationTheme {
+            CryptocurrencyAppYTTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     val navController = rememberNavController()
